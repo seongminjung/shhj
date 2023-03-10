@@ -7,7 +7,7 @@
 .h-flex {
   display: flex;
   justify-content: space-between;
-  align-items: end;
+  align-items: flex-end;
 }
 .h-links a p {
   font-size: 40px;
