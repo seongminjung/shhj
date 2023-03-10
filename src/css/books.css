@@ -2,6 +2,13 @@
   display: flex;
 }
 
-.b-flex img {
+.b-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.b-left img {
   width: 300px;
 }
