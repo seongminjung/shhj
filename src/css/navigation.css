@@ -1,3 +1,7 @@
 .n-logo {
   width: 50px;
 }
+
+.n-language p {
+  text-transform: uppercase;
+}
