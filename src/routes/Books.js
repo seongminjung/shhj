@@ -1,6 +1,6 @@
 import React from "react";
 import "css/books.css";
-import bookimg from "img/pictures/bookimg.png";
+import bookimg from "img/pictures/bookcover.png";
 
 const Books = () => {
   return (

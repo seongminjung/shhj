@@ -43,6 +43,10 @@
   width: 100%;
 }
 
+.app-flex {
+  display: flex;
+}
+
 body {
   font-family: NotoSansKR;
 }

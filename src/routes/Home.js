@@ -1,12 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Navigation from "components/Navigation";
 import "css/home.css";
 
 const Home = () => {
   return (
     <div className="container-fluid">
-      <Navigation />
       <div className="h-social">
         <p>youtube</p>
         <p>blog</p>
