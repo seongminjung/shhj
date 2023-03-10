@@ -1,0 +1,10 @@
+.a1-flex {
+  display: flex;
+}
+
+.a1-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
