@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Home from "routes/Home";
 import Main from "routes/Main";
 import Books from "routes/Books";
 import About from "routes/About";
@@ -12,6 +13,9 @@ const AppRouter = ({ userObj }) => {
       <ScrollToTop />
       <Switch>
         <Route exact path="/">
+          <Home />
+        </Route>
+        <Route exact path="/main">
           <Main />
         </Route>
         <Route exact path="/books">

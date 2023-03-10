@@ -1,0 +1,7 @@
+.b-flex {
+  display: flex;
+}
+
+.b-flex img {
+  width: 300px;
+}
