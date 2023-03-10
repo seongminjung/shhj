@@ -3,12 +3,9 @@ import "css/about2.css";
 
 const About2 = () => {
   return (
-    <div className="container r2-relative">
-      <div className="r2-nav">
-        <div>
-          <p className="r2-pagenumber">01.</p>
-        </div>
-      </div>
+    <div className="container-fluid">
+      <p className="a1-title">About Us</p>
+      <p className="a1-subtitle">출판 진행 과정</p>
     </div>
   );
 };
