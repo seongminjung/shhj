@@ -13,8 +13,8 @@ const Home = () => {
       </div>
       <div className="h-flex">
         <div className="h-links">
-          <Link to="/">
-            <p>Home</p>
+          <Link to="/main">
+            <p>Main</p>
           </Link>
           <Link to="/books">
             <p>Books</p>

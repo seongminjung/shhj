@@ -7,7 +7,7 @@ const Main = () => {
     <div className="container-fluid">
       <div className="m-flex">
         <img src={bookimg} alt="book" className="m-img" />
-        <p className="m--title">Apply</p>
+        <p className="m-title">Apply</p>
       </div>
     </div>
   );

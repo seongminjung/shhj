@@ -1,0 +1,14 @@
+.c-flex {
+  display: flex;
+}
+
+.c-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.c-right img {
+  width: 300px;
+}

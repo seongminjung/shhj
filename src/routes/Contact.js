@@ -1,16 +1,23 @@
 import React from "react";
 import "css/contact.css";
+import contactimg from "img/pictures/contact.png";
 
 const contact = () => {
   return (
     <div className="container">
-      <div className="r5-grid">
-        <p className="r5-grid__title">VERY 모집 기간</p>
-        <p className="r5-grid__title">VERY 지원 자격</p>
-        <p className="r5-grid__description">
-          * 정기 모집 기간은 매 1학기와 2학기에 진행
-          <br />* 상세한 내용은 모집 기간에 각종 채널로 공고 예정
-        </p>
+      <div className="c-flex">
+        <div className="c-left">
+          <p className="c-title">Contact</p>
+          <div className="c-details">
+            <p>주소 | [10881] 경기도 파주시 회동길 210</p>
+            <p>전화 | 031 955 1936, 2560</p>
+            <p>팩스 | 031 955 2557</p>
+            <p>독자의견 | bookpot@hanmail.net</p>
+          </div>
+        </div>
+        <div className="c-right">
+          <img src={contactimg} alt="contact" />
+        </div>
       </div>
     </div>
   );
