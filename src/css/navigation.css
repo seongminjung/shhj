@@ -1,5 +1,11 @@
+.n-wrapper {
+  width: 150px;
+  text-align: center;
+  background-color: #d3d3d3;
+}
+
 .n-logo {
-  width: 50px;
+  width: 75px;
 }
 
 .n-language p {
