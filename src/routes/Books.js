@@ -5,14 +5,14 @@ import bookimg from "img/pictures/bookcover.png";
 const Books = () => {
   return (
     <div className="container-fluid">
+      <p className="b-title">Books</p>
+      <p className="b-subtitle">고묘고종록</p>
       <div className="b-flex">
         <div className="b-left">
-          <p className="b-title">Books</p>
-          <p className="b-subtitle">고묘고종록</p>
           <img src={bookimg} alt="bookimg" />
         </div>
         <div className="b-right">
-          <p className="b-sectiontitle">저자와 독자</p>
+          <p className="b-sectiontitle">2023.02 고묘고종록</p>
           <p className="b-sectionbody">
             책 소개: 책을 만드는 일이 어렵다고 합니다. 뜻을 갖고 시작하기도
             어렵지만 이를 지켜나가기는 더 어려운 일입니다. 인쇄매체가 갖는
@@ -31,9 +31,6 @@ const Books = () => {
             저자와 독자, 이들을 이어주는 책, 책을 만드는 나남. ‘나와 남, 나와
             세계, 아(我)와 비아(非我)’의 창조적 조화를 실현하는 것, 이것이
             나남이 걸어왔고 또 걸어가야 할 길입니다.
-          </p>
-          <p className="b-sectionfooter">
-            도서출판 선행후지 대표 <span>임형택</span>
           </p>
         </div>
       </div>

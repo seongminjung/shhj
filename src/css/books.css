@@ -2,13 +2,36 @@
   display: flex;
 }
 
+.b-flex > div {
+  flex: 1;
+}
+
 .b-title {
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 2rem;
   text-transform: uppercase;
+  margin-top: 50px;
+}
+
+.b-left {
+  text-align: center;
 }
 
 .b-left img {
   width: 300px;
+}
+
+.b-sectiontitle {
+  font-size: 21px;
+  font-weight: 700;
+  color: #9f9f9f;
+}
+
+.b-sectionbody {
+  font-size: 16px;
+  font-weight: 500;
+  color: #9f9f9f;
+  line-height: 30px;
+  margin-top: 50px;
 }

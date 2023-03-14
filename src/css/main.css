@@ -1,7 +1,40 @@
 .m-flex {
   display: flex;
+  margin-top: 50px;
 }
 
-.m-flex img {
+.m-flex > div {
+  flex: 1;
+}
+
+.m-left img {
   width: 300px;
+}
+
+.m-right {
+  display: flex;
+  gap: 50px;
+}
+
+.m-date,
+.m-title {
+  font-size: 21px;
+  font-weight: 700;
+  color: #9f9f9f;
+}
+
+.m-body {
+  font-size: 16px;
+  font-weight: 500;
+  color: #9f9f9f;
+  line-height: 30px;
+  margin-top: 30px;
+}
+
+.m-footer {
+  font-size: 16px;
+  font-weight: 500;
+  color: #9f9f9f;
+  text-align: right;
+  margin-top: 50px;
 }

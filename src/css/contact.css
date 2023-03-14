@@ -1,5 +1,6 @@
 .c-flex {
   display: flex;
+  margin-top: 50px;
 }
 
 .c-title {
@@ -9,6 +10,13 @@
   text-transform: uppercase;
 }
 
+.c-details {
+  font-size: 16px;
+  font-weight: 500;
+  color: #9f9f9f;
+  margin-top: 200px;
+}
+
 .c-right img {
-  width: 300px;
+  width: 600px;
 }
