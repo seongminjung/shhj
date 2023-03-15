@@ -5,12 +5,11 @@ import bookimg from "img/picture/book_transparent.png";
 const Books = () => {
   return (
     <div className="container">
+      <img src={bookimg} alt="bookimg" className="b-bookimg" />
       <p className="b-title">Books</p>
       <p className="b-subtitle">고묘고종록</p>
       <div className="b-flex">
-        <div className="b-left">
-          <img src={bookimg} alt="bookimg" />
-        </div>
+        <div className="b-left"></div>
         <div className="b-right">
           <p className="b-sectiontitle">2023.02 고묘고종록</p>
           <p className="b-sectionbody">

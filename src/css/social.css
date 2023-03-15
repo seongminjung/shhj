@@ -1,0 +1,10 @@
+.s-wrapper {
+  display: flex;
+  justify-content: right;
+  gap: 25px;
+  margin-bottom: 150px;
+}
+
+.s-wrapper img {
+  width: 25px;
+}

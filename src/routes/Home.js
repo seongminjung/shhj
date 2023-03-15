@@ -1,16 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Social from "components/Social";
 import "css/home.css";
-import youtube from "img/asset/youtube.png";
-import blog from "img/asset/blog.png";
 
 const Home = () => {
   return (
     <div className="container">
-      <div className="h-social">
-        <img src={youtube} alt={youtube} />
-        <img src={blog} alt={blog} />
-      </div>
+      <Social />
       <div className="h-flex">
         <div className="h-links">
           <Link to="/main">

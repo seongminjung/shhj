@@ -5,19 +5,14 @@
 }
 
 .a2-title {
-  font-size: 3rem;
+  font-size: 64px;
   font-weight: 700;
-  margin-bottom: 2rem;
   text-transform: uppercase;
-  margin-top: 50px;
 }
 
 .a2-subtitle {
   font-size: 30px;
-}
-
-.a2-flex div:nth-child(2n) {
-  margin-top: 100px;
+  margin-top: 20px;
 }
 
 .a2-process {
@@ -29,12 +24,4 @@
   width: 1000px;
   object-fit: cover;
   object-position: center;
-}
-
-.a2-process p {
-  font-size: 21px;
-  font-weight: 700;
-  color: #9f9f9f;
-  margin-top: 10px;
-  text-align: center;
 }

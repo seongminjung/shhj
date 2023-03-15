@@ -3,6 +3,7 @@
   min-width: 100px;
   text-align: center;
   background-color: #d3d3d3;
+  flex-shrink: 0;
 }
 
 .n-logo {

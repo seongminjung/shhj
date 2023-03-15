@@ -1,13 +1,3 @@
-.h-social {
-  display: flex;
-  justify-content: right;
-  gap: 25px;
-}
-
-.h-social img {
-  width: 25px;
-}
-
 .h-flex {
   display: flex;
   justify-content: space-between;

@@ -1,14 +1,15 @@
 import React from "react";
 import "css/main.css";
 import bookimg from "img/picture/background_with_book.png";
+import Social from "components/Social";
 
 const Main = () => {
   return (
     <div className="container">
+      <Social />
+      <img src={bookimg} alt="book" className="m-background" />
       <div className="m-flex">
-        <div className="m-left">
-          <img src={bookimg} alt="book" className="m-img" />
-        </div>
+        <div className="m-left"></div>
         <div className="m-right">
           <p className="m-date">2023.02</p>
           <div>

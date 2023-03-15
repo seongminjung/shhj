@@ -1,3 +1,10 @@
+.b-bookimg {
+  position: absolute;
+  width: 1000px;
+  top: 100px;
+  left: 0;
+}
+
 .b-flex {
   display: flex;
 }
@@ -7,22 +14,23 @@
 }
 
 .b-title {
-  font-size: 3rem;
+  font-size: 64px;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 .b-subtitle {
   font-size: 30px;
+  margin-top: 20px;
 }
 
-.b-left {
+/* .b-left {
   text-align: center;
 }
 
 .b-left img {
   width: 300px;
-}
+} */
 
 .b-sectiontitle {
   font-size: 21px;
