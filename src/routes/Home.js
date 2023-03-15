@@ -1,13 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "css/home.css";
+import youtube from "img/asset/youtube.png";
+import blog from "img/asset/blog.png";
 
 const Home = () => {
   return (
     <div className="container-fluid">
       <div className="h-social">
-        <p>youtube</p>
-        <p>blog</p>
+        <img src={youtube} alt={youtube} />
+        <img src={blog} alt={blog} />
       </div>
       <div className="h-flex">
         <div className="h-links">

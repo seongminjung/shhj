@@ -2,6 +2,12 @@
   display: flex;
   justify-content: right;
   gap: 25px;
+  margin-top: 50px;
+  margin-right: 100px;
+}
+
+.h-social img {
+  width: 25px;
 }
 
 .h-flex {
@@ -9,6 +15,7 @@
   justify-content: space-between;
   align-items: flex-end;
   margin-top: 200px;
+  margin-left: 80px;
 }
 
 .h-links a p {

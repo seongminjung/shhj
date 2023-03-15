@@ -1,6 +1,6 @@
 import React from "react";
 import "css/navigation.css";
-import logo from "img/pictures/logo.png";
+import logo from "img/logo/logo_black.png";
 import { Link } from "react-router-dom";
 
 const Navigation = () => {

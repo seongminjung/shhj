@@ -6,6 +6,11 @@
 
 .n-logo {
   width: 75px;
+  margin-top: 45px;
+}
+
+.n-language {
+  margin-top: 50vh;
 }
 
 .n-language p {

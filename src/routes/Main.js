@@ -1,6 +1,6 @@
 import React from "react";
 import "css/main.css";
-import bookimg from "img/pictures/bookimg.png";
+import bookimg from "img/picture/background_with_book.png";
 
 const Main = () => {
   return (
