@@ -4,7 +4,7 @@ import processes from "img/picture/processes.png";
 
 const About2 = () => {
   return (
-    <div className="container-fluid">
+    <div className="container">
       <p className="a2-title">About Us</p>
       <p className="a2-subtitle">출판 진행 과정</p>
       <div className="a2-process">

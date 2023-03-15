@@ -20,9 +20,13 @@
   margin-top: 100px;
 }
 
+.a2-process {
+  margin-top: 100px;
+  text-align: center;
+}
+
 .a2-process img {
-  width: 150px;
-  height: 150px;
+  width: 1000px;
   object-fit: cover;
   object-position: center;
 }

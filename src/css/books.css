@@ -9,9 +9,11 @@
 .b-title {
   font-size: 3rem;
   font-weight: 700;
-  margin-bottom: 2rem;
   text-transform: uppercase;
-  margin-top: 50px;
+}
+
+.b-subtitle {
+  font-size: 30px;
 }
 
 .b-left {

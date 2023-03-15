@@ -23,12 +23,8 @@
 }
 
 .container {
-  width: 1520px;
-  margin: 0 auto;
-}
-
-.container-fluid {
-  width: 100%;
+  width: calc(100vw - 7.6vw);
+  margin: 120px 110px;
 }
 
 .app-flex {

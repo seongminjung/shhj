@@ -4,7 +4,7 @@ import bookimg from "img/picture/background_with_book.png";
 
 const Main = () => {
   return (
-    <div className="container-fluid">
+    <div className="container">
       <div className="m-flex">
         <div className="m-left">
           <img src={bookimg} alt="book" className="m-img" />

@@ -4,7 +4,7 @@ import bookimg from "img/picture/book_transparent.png";
 
 const Books = () => {
   return (
-    <div className="container-fluid">
+    <div className="container">
       <p className="b-title">Books</p>
       <p className="b-subtitle">고묘고종록</p>
       <div className="b-flex">

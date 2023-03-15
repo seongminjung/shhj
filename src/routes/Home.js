@@ -6,7 +6,7 @@ import blog from "img/asset/blog.png";
 
 const Home = () => {
   return (
-    <div className="container-fluid">
+    <div className="container">
       <div className="h-social">
         <img src={youtube} alt={youtube} />
         <img src={blog} alt={blog} />
