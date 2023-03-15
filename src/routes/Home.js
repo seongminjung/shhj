@@ -24,7 +24,7 @@ const Home = () => {
         </div>
         <div>
           <p className="h-copyright">
-            COPYRIGHT XINGZHI BOOKS AL RIGHT RESERVED
+            COPYRIGHT XINGZHI BOOKS ALL RIGHT RESERVED
           </p>
         </div>
       </div>
