@@ -2,10 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Social from "components/Social";
 import "css/home.css";
+import background from "img/picture/background.png";
 
 const Home = () => {
   return (
     <div className="container">
+      <img src={background} alt="background" className="h-background" />
       <Social />
       <div className="h-flex">
         <div className="h-links">

@@ -2,8 +2,8 @@
   width: 7.6vw;
   min-width: 100px;
   text-align: center;
-  background-color: #d3d3d3;
   flex-shrink: 0;
+  border-right: 1px solid white;
 }
 
 .n-logo {
@@ -12,7 +12,7 @@
 }
 
 .n-language {
-  margin-top: calc(100vh - 110px - 32px);
+  margin-top: calc(100vh - 115px - 32px);
 }
 
 .n-language p {
