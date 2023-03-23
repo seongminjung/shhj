@@ -1,10 +1,16 @@
 import React from "react";
 import "css/books.css";
+import background_gray from "img/picture/background_gray.png";
 import bookimg from "img/picture/book_transparent.png";
 
 const Books = () => {
   return (
     <div className="container">
+      <img
+        src={background_gray}
+        alt="background"
+        className="backgroundimg_full"
+      />
       <img src={bookimg} alt="bookimg" className="b-bookimg" />
       <p className="b-title">Books</p>
       <p className="b-subtitle">고묘고종록</p>
