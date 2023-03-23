@@ -1,5 +1,6 @@
 import React from "react";
 import "css/about1.css";
+import ceoimage from "img/picture/ceoimage.png";
 
 const About1 = () => {
   return (
@@ -8,6 +9,7 @@ const About1 = () => {
         <div className="a1-left">
           <p className="a1-title">About Us</p>
           <p className="a1-subtitle">인사말</p>
+          <img src={ceoimage} alt={"ceo"} className="a1-img" />
         </div>
         <div className="a1-right">
           <p className="a1-sectiontitle">

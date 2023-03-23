@@ -4,6 +4,7 @@ import "react-multi-carousel/lib/styles.css";
 import About1 from "components/About1";
 import About2 from "components/About2";
 import "css/about.css";
+import background_gray from "img/picture/background_gray.png";
 
 const About = () => {
   const responsive = {
@@ -21,33 +22,40 @@ const About = () => {
     },
   };
   return (
-    <div className="a-carousel">
-      <Carousel
-        responsive={responsive}
-        swipeable={false}
-        draggable={false}
-        infinite={true}
-        // arrows={false}
-        showDots={true}
-        autoPlay={false}
-        // autoPlaySpeed={3000}
-        renderButtonGroupOutside={true}
-        // customButtonGroup={<ButtonGroup />}
-        // customLeftArrow={<CustomLeftArrow />}
-        // customRightArrow={<CustomRightArrow />}
-        // keyBoardControl={false}
-        // ssr={true} // means to render carousel on server-side.
-        // customTransition="all .5"
-        // transitionDuration={500}
-        // containerClass="carousel-container"
-        // removeArrowOnDeviceType={["tablet", "mobile"]}
-        // deviceType={this.props.deviceType}
-        // dotListClass="custom-dot-list-style"
-        // itemClass="carousel-item-padding-40-px"
-      >
-        <About1 />
-        <About2 />
-      </Carousel>
+    <div>
+      <img
+        src={background_gray}
+        alt="background"
+        className="backgroundimg_full"
+      />
+      <div className="a-carousel">
+        <Carousel
+          responsive={responsive}
+          swipeable={false}
+          draggable={false}
+          infinite={true}
+          // arrows={false}
+          showDots={true}
+          autoPlay={false}
+          // autoPlaySpeed={3000}
+          renderButtonGroupOutside={true}
+          // customButtonGroup={<ButtonGroup />}
+          // customLeftArrow={<CustomLeftArrow />}
+          // customRightArrow={<CustomRightArrow />}
+          // keyBoardControl={false}
+          // ssr={true} // means to render carousel on server-side.
+          // customTransition="all .5"
+          // transitionDuration={500}
+          // containerClass="carousel-container"
+          // removeArrowOnDeviceType={["tablet", "mobile"]}
+          // deviceType={this.props.deviceType}
+          // dotListClass="custom-dot-list-style"
+          // itemClass="carousel-item-padding-40-px"
+        >
+          <About1 />
+          <About2 />
+        </Carousel>
+      </div>
     </div>
   );
 };
