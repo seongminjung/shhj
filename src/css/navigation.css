@@ -1,6 +1,7 @@
 .n-wrapper {
   width: 7.6vw;
   min-width: 100px;
+  height: 100vh;
   text-align: center;
   flex-shrink: 0;
   border-right: 1px solid white;
@@ -13,16 +14,13 @@
 }
 
 .n-language {
-  margin-top: calc(100vh - 115px - 32px);
-}
-
-.n-language p {
-  text-transform: uppercase;
+  margin-top: 74vh;
+  width: 46px;
 }
 
 .n-bookmark {
   position: absolute;
   width: 128px;
-  bottom: 7vh;
+  bottom: 15vh;
   left: 6.5vw;
 }
