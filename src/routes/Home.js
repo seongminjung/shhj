@@ -7,7 +7,7 @@ import background from "img/picture/background.png";
 const Home = () => {
   return (
     <div className="container">
-      <img src={background} alt="background" className="h-background" />
+      <img src={background} alt="background" className="backgroundimg_full" />
       <Social />
       <div className="h-flex">
         <div className="h-links">

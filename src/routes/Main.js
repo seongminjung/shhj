@@ -7,7 +7,7 @@ const Main = () => {
   return (
     <div className="container">
       <Social />
-      <img src={bookimg} alt="book" className="m-background" />
+      <img src={bookimg} alt="book" className="backgroundimg_full" />
       <div className="m-flex">
         <div className="m-left"></div>
         <div className="m-right">

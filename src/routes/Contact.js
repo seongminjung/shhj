@@ -1,10 +1,16 @@
 import React from "react";
 import "css/contact.css";
+import background_gray from "img/picture/background_gray.png";
 import contactimg from "img/picture/contact.png";
 
 const contact = () => {
   return (
     <div className="container">
+      <img
+        src={background_gray}
+        alt="background"
+        className="backgroundimg_full"
+      />
       <div className="c-flex">
         <div className="c-left">
           <p className="c-title">Contact</p>
