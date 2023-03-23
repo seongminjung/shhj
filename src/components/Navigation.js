@@ -1,7 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "css/navigation.css";
 import logo from "img/logo/logo_black.png";
-import { Link } from "react-router-dom";
+import bookmark_dot from "img/asset/bookmark_dot.png";
 
 const Navigation = () => {
   return (
@@ -13,6 +14,7 @@ const Navigation = () => {
         <p>kor</p>
         <p>chn</p>
       </div>
+      <img src={bookmark_dot} alt={"bookmark_dot"} className="n-bookmark" />
     </div>
   );
 };

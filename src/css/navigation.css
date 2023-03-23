@@ -4,6 +4,7 @@
   text-align: center;
   flex-shrink: 0;
   border-right: 1px solid white;
+  position: relative;
 }
 
 .n-logo {
@@ -17,4 +18,11 @@
 
 .n-language p {
   text-transform: uppercase;
+}
+
+.n-bookmark {
+  position: absolute;
+  width: 128px;
+  bottom: 7vh;
+  left: 6.5vw;
 }
