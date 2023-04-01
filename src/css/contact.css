@@ -1,22 +1,27 @@
-.c-flex {
-  display: flex;
-  gap: 100px;
-}
-
 .c-title {
   font-size: 64px;
   font-weight: 700;
   text-transform: uppercase;
 }
 
-.c-details {
+.c-flex {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  bottom: 100px;
+  width: 75vw;
+}
+
+.c-left {
   font-size: 16px;
   font-weight: 500;
   color: #9f9f9f;
   margin-top: 300px;
+  margin-left: 50px;
   line-height: 30px;
 }
 
 .c-right img {
-  width: 600px;
+  height: 60vh;
 }
