@@ -17,7 +17,7 @@ const Navigation = () => {
   };
   return (
     <div className="n-wrapper">
-      <Link to="/">
+      <Link to="/main">
         <img src={logo} alt="logo" className="n-logo" />
       </Link>
       <div>
@@ -28,7 +28,9 @@ const Navigation = () => {
           onClick={toggleLanguage}
         />
       </div>
-      <img src={bookmark_dot} alt="bookmark_dot" className="n-bookmark" />
+      <Link to="/">
+        <img src={bookmark_dot} alt="bookmark_dot" className="n-bookmark" />
+      </Link>
     </div>
   );
 };
