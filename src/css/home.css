@@ -1,8 +1,14 @@
 .h-flex {
+  position: absolute;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  margin-top: 150px;
+  bottom: 100px;
+  width: 75vw;
+}
+
+.h-links {
+  margin-left: 50px;
 }
 
 .h-links a p {
@@ -18,6 +24,17 @@
 .h-links a :hover {
   color: black;
   transition: 0.1s ease-in-out;
+  margin-left: 10px;
+}
+
+.h-links a :hover::before {
+  background-image: url("img/asset/books.png");
+  background-size: 34px 47.6px;
+  display: inline-block;
+  content: "";
+  width: 34px;
+  height: 47.6px;
+  margin-right: 5px;
 }
 
 .h-copyright {
