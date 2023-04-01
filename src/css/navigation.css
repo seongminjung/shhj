@@ -16,6 +16,7 @@
 .n-language {
   margin-top: 74vh;
   width: 46px;
+  cursor: pointer;
 }
 
 .n-bookmark {
