@@ -17,6 +17,7 @@
   margin-top: 74vh;
   width: 46px;
   cursor: pointer;
+  z-index: 1;
 }
 
 .n-bookmark {
@@ -24,4 +25,5 @@
   width: 128px;
   bottom: 15vh;
   left: 6.5vw;
+  z-index: 1;
 }
