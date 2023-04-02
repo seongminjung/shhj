@@ -9,6 +9,7 @@
 .m-right {
   display: flex;
   gap: 50px;
+  margin-right: 100px;
 }
 
 .m-date,
