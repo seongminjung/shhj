@@ -13,6 +13,10 @@
   flex: 1;
 }
 
+.b-right {
+  margin-right: 100px;
+}
+
 .b-title {
   font-size: 64px;
   font-weight: 700;
@@ -23,14 +27,6 @@
   font-size: 30px;
   margin-top: 20px;
 }
-
-/* .b-left {
-  text-align: center;
-}
-
-.b-left img {
-  width: 300px;
-} */
 
 .b-sectiontitle {
   font-size: 21px;

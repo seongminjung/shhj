@@ -1,8 +1,11 @@
 .s-wrapper {
+  position: absolute;
   display: flex;
   justify-content: right;
   gap: 25px;
   margin-bottom: 150px;
+  top: 56px;
+  right: 95px;
 }
 
 .s-wrapper img {

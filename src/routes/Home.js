@@ -7,8 +7,8 @@ import background from "img/picture/background.png";
 const Home = () => {
   return (
     <div className="container">
-      <img src={background} alt="background" className="backgroundimg_full" />
       <Social />
+      <img src={background} alt="background" className="backgroundimg_full" />
       <div className="h-flex">
         <div className="h-links">
           <Link to="/main">
