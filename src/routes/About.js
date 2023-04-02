@@ -35,7 +35,7 @@ const About = () => {
           draggable={false}
           infinite={true}
           // arrows={false}
-          showDots={true}
+          showDots={false}
           autoPlay={false}
           // autoPlaySpeed={3000}
           renderButtonGroupOutside={true}

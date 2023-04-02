@@ -1,18 +1,14 @@
-.a2-flex {
-  display: flex;
-  margin-top: 50px;
-  gap: 20px;
-}
-
 .a2-title {
   font-size: 64px;
   font-weight: 700;
   text-transform: uppercase;
+  margin-left: 50px;
 }
 
 .a2-subtitle {
   font-size: 30px;
   margin-top: 20px;
+  margin-left: 50px;
 }
 
 .a2-process {
@@ -21,7 +17,5 @@
 }
 
 .a2-process img {
-  width: 1000px;
-  object-fit: cover;
-  object-position: center;
+  width: 80%;
 }
