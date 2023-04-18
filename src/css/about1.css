@@ -26,6 +26,7 @@
 }
 
 .a1-right {
+  margin-top: 100px;
   margin-left: 200px;
 }
 
@@ -48,7 +49,8 @@
   font-size: 16px;
   font-weight: 500;
   color: #9f9f9f;
-  margin-top: 20px;
+  margin-top: 30px;
+  margin-left: 55%;
 }
 
 .a1-sectionfooter span {

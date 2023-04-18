@@ -1,26 +1,25 @@
 import React from "react";
 import "css/main.css";
 import bookimg from "img/picture/background_with_book.png";
-import Social from "components/Social";
+// import Social from "components/Social";
 
 const Main = () => {
   return (
     <div className="container">
-      <Social />
+      {/* <Social /> */}
       <img src={bookimg} alt="book" className="backgroundimg_full" />
       <div className="m-flex">
         <div className="m-left"></div>
         <div className="m-right">
-          <p className="m-date">2023.02</p>
+          <p className="m-date">2023.04</p>
           <div>
-            <p className="m-title">행복을 찾아서 가는 길</p>
+            <p className="m-title">⎾고묘고종록古庙敲钟录⏌</p>
             <p className="m-body">
-              이번 [행복을 찾아서 가는 길]은 행복을 위해서 내린 그동안의 결정이
-              과연 좋은 결과를 가져다주었는지에 대한 생각으로 이번 [행복을
-              찾아서 가는 길]은 행복을 위해서 내린 그동안의 결정이 과연 좋은
-              결과를 가져다주었는지에 대한 생각으로....
+              《고묘고종록古庙敲钟录》은 타오싱즈陶行知가 1932년 5월 21일부터
+              8월 15일까지 당시 신문인 《신보申报》의 ‘자유담란’에 연재 발표한
+              글입니다. 그는 《고묘고종록古庙敲钟录》에 자신의 교육사상을 담아
+              내었습니다.
             </p>
-            <p className="m-footer">⎾책을 펴내며: 산사의 미학⏌</p>
           </div>
         </div>
       </div>

@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Social from "components/Social";
+// import Social from "components/Social";
 import "css/home.css";
 import background from "img/picture/background.png";
 
 const Home = () => {
   return (
     <div className="container">
-      <Social />
+      {/* <Social /> */}
       <img src={background} alt="background" className="backgroundimg_full" />
       <div className="h-flex">
         <div className="h-links">
