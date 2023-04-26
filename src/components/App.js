@@ -6,6 +6,8 @@ import "css/reset.css";
 import "css/app.css";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
+  faAnglesLeft,
+  faAnglesRight,
   faBars,
   faCaretDown,
   faChevronLeft,
@@ -13,7 +15,15 @@ import {
   faPlus,
 } from "@fortawesome/free-solid-svg-icons";
 
-library.add(faBars, faCaretDown, faChevronLeft, faChevronRight, faPlus);
+library.add(
+  faAnglesLeft,
+  faAnglesRight,
+  faBars,
+  faCaretDown,
+  faChevronLeft,
+  faChevronRight,
+  faPlus
+);
 
 function App() {
   const [init, setInit] = useState(false);
