@@ -14,7 +14,7 @@ const Home = () => {
           <Link to="/main">
             <p>Main</p>
           </Link>
-          <Link to="/books">
+          <Link to="/books1">
             <p>Books</p>
           </Link>
           <Link to="/about">

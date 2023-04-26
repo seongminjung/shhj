@@ -1,3 +1,5 @@
 .a-carousel {
   width: calc(100vw - 15vw);
+  margin-top: -100px;
+  margin-left: -50px;
 }

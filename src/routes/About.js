@@ -5,6 +5,8 @@ import About1 from "components/About1";
 import About2 from "components/About2";
 import "css/about.css";
 import background_gray from "img/picture/background_gray.png";
+import LeftArrow from "components/LeftArrow";
+import RightArrow from "components/RightArrow";
 
 const About = () => {
   const responsive = {
@@ -22,7 +24,9 @@ const About = () => {
     },
   };
   return (
-    <div>
+    <div className="container">
+      <LeftArrow to="/books2" />
+      <RightArrow to="/contact" />
       <img
         src={background_gray}
         alt="background"

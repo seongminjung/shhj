@@ -2,10 +2,12 @@ import React from "react";
 import "css/contact.css";
 import background_gray from "img/picture/background_gray.png";
 import contactimg from "img/picture/contact.png";
+import LeftArrow from "components/LeftArrow";
 
 const contact = () => {
   return (
     <div className="container">
+      <LeftArrow to="/about" />
       <img
         src={background_gray}
         alt="background"
