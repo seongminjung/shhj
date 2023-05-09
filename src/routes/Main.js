@@ -1,4 +1,5 @@
 import React from "react";
+import RightArrow from "components/RightArrow";
 import "css/main.css";
 import bookimg from "img/picture/background_with_book.png";
 // import Social from "components/Social";
@@ -6,6 +7,7 @@ import bookimg from "img/picture/background_with_book.png";
 const Main = () => {
   return (
     <div className="container">
+      <RightArrow to="/books1" />
       {/* <Social /> */}
       <img src={bookimg} alt="book" className="backgroundimg_full" />
       <div className="m-flex">

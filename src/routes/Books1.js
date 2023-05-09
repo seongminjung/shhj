@@ -1,4 +1,5 @@
 import React from "react";
+import LeftArrow from "components/LeftArrow";
 import RightArrow from "components/RightArrow";
 import "css/books.css";
 import background_gray from "img/picture/background_gray.png";
@@ -7,6 +8,7 @@ import bookimg from "img/picture/book_transparent.png";
 const Books1 = () => {
   return (
     <div className="container">
+      <LeftArrow to="/main" />
       <RightArrow to="/books2" />
       <img
         src={background_gray}
