@@ -7,7 +7,7 @@ import bookimg from "img/picture/background_with_book.png";
 const Main = () => {
   return (
     <div className="container">
-      <RightArrow to="/books1" />
+      <RightArrow to="/books" />
       {/* <Social /> */}
       <img src={bookimg} alt="book" className="backgroundimg_full" />
       <div className="m-flex">

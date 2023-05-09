@@ -25,7 +25,7 @@ const About = () => {
   };
   return (
     <div className="container">
-      <LeftArrow to="/books2" />
+      <LeftArrow to="/books" />
       <RightArrow to="/contact" />
       <img
         src={background_gray}

@@ -2,8 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "routes/Home";
 import Main from "routes/Main";
-import Books1 from "routes/Books1";
-import Books2 from "routes/Books2";
+import Books from "routes/Books";
 import About from "routes/About";
 import Contact from "routes/Contact";
 import ScrollToTop from "components/ScrollToTop";
@@ -22,11 +21,8 @@ const AppRouter = ({ userObj }) => {
           <Route exact path="/main">
             <Main />
           </Route>
-          <Route exact path="/books1">
-            <Books1 />
-          </Route>
-          <Route exact path="/books2">
-            <Books2 />
+          <Route exact path="/books">
+            <Books />
           </Route>
           <Route exact path="/about">
             <About />
