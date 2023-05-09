@@ -19,7 +19,6 @@ const contact = () => {
           <p>주소 | [04075] 서울특별시 마포구 와우산로 32, 5층(상수동)</p>
           <p>전화 | 02 6204 6931</p>
           <p>E-mail | taoxingzhi@naver.com</p>
-          <p>독자의견 | bookpot@hanmail.net</p>
         </div>
         <div className="c-right">
           <img src={contactimg} alt="contact" />
