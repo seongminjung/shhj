@@ -1,21 +1,19 @@
 import React from "react";
-import "css/contact.css";
+import "css/partners.css";
 import background_gray from "img/picture/background_gray.png";
 import contactimg from "img/picture/contact.png";
 import LeftArrow from "components/LeftArrow";
-import RightArrow from "components/RightArrow";
 
-const contact = () => {
+const partners = () => {
   return (
     <div className="container">
-      <LeftArrow to="/about" />
-      <RightArrow to="/partners" />
+      <LeftArrow to="/contact" />
       <img
         src={background_gray}
         alt="background"
         className="backgroundimg_full"
       />
-      <p className="title">Contact</p>
+      <p className="title">Partners</p>
       <div className="c-flex">
         <div className="c-left">
           <p>주소 | [04075] 서울특별시 마포구 와우산로 32, 5층(상수동)</p>
@@ -30,4 +28,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default partners;

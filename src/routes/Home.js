@@ -23,6 +23,9 @@ const Home = () => {
           <Link to="/contact">
             <p>Contact</p>
           </Link>
+          <Link to="/partners">
+            <p>Partners</p>
+          </Link>
         </div>
         <div>
           <p className="h-copyright">

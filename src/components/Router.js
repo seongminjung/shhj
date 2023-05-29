@@ -5,6 +5,7 @@ import Main from "routes/Main";
 import Books from "routes/Books";
 import About from "routes/About";
 import Contact from "routes/Contact";
+import Partners from "routes/Partners";
 import ScrollToTop from "components/ScrollToTop";
 import Navigation from "components/Navigation";
 
@@ -29,6 +30,9 @@ const AppRouter = ({ userObj }) => {
           </Route>
           <Route exact path="/contact">
             <Contact />
+          </Route>
+          <Route exact path="/partners">
+            <Partners />
           </Route>
         </Switch>
       </div>
