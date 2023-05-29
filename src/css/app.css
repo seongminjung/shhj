@@ -44,3 +44,18 @@ body {
   object-fit: cover;
   object-position: center;
 }
+
+.title {
+  font-size: 64px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: 110px;
+  margin-top: 20px;
+}
+
+.subtitle {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left: 110px;
+  margin-bottom: 50px;
+}

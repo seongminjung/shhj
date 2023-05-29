@@ -32,8 +32,8 @@ const Books = () => {
         className="backgroundimg_full"
       />
       <img src={bookimg} alt="bookimg" className="b-bookimg" />
-      <p className="b-title">Books</p>
-      <p className="b-subtitle">고묘고종록</p>
+      <p className="title">Books</p>
+      <p className="subtitle">고묘고종록</p>
       <div className="b-text">
         <p className="b-sectiontitle">2023.04 ⎾고묘고종록古庙敲钟录⏌ 소개글</p>
         <div className="b-carousel">

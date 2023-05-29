@@ -13,7 +13,7 @@ const contact = () => {
         alt="background"
         className="backgroundimg_full"
       />
-      <p className="c-title">Contact</p>
+      <p className="title">Contact</p>
       <div className="c-flex">
         <div className="c-left">
           <p>주소 | [04075] 서울특별시 마포구 와우산로 32, 5층(상수동)</p>

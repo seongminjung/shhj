@@ -1,19 +1,8 @@
 .b-bookimg {
   position: absolute;
   width: 1000px;
-  top: 100px;
+  top: 150px;
   left: 0;
-}
-
-.b-title {
-  font-size: 64px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.b-subtitle {
-  font-size: 30px;
-  margin-top: 20px;
 }
 
 .b-sectiontitle {
