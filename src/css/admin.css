@@ -1,0 +1,122 @@
+.adm-sectiontitle {
+  font-family: NotoSansKR;
+  font-weight: 700;
+  font-size: 30px;
+  padding-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.adm-sectionsubtitle {
+  font-family: NotoSansKR;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #9b9b9b;
+}
+
+.adm-sectionbar {
+  text-align: center;
+}
+
+.adm-textform {
+  padding-bottom: 50px;
+}
+
+.adm-textform label {
+  font-family: NotoSansKR;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: left;
+  display: inline-block;
+  width: 150px;
+}
+
+.adm-textform input {
+  font-family: NotoSansKR;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: left;
+}
+
+.adm-editpartner-subtitle {
+  font-family: NotoSansKR;
+  font-weight: 700;
+  font-size: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.adm-partners-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 80px;
+}
+
+.adm-partner-wrapper {
+  position: relative;
+  border: 1px solid #323232;
+  padding: 20px;
+}
+
+.adm-partner-info {
+  font-family: NotoSansKR;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.adm-partner-imgupload {
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  padding: 3px;
+  cursor: pointer;
+  font-weight: 700;
+  width: 30px;
+  margin: 10px 0;
+  display: block;
+}
+
+#adm-partner-logo {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.adm-partner-logopreview {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.adm-partner-logopreview img {
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  padding: 10px;
+}
+
+.adm-partner-logopreview p {
+  font-family: NotoSansKR;
+  font-weight: 400;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  padding: 3px;
+}
+
+.adm-partner-edititem {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-family: NotoSansKR;
+  font-weight: 400;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+}
+
+.adm-partner-edititem:hover {
+  background-color: #94e9a9;
+}
