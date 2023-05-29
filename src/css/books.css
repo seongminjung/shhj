@@ -1,31 +1,39 @@
+.b-flex {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+}
+
+@media (max-width: 1500px) {
+  .b-flex {
+    flex-direction: column;
+  }
+}
+
+.b-flex > div {
+  flex: 1;
+}
+
 .b-bookimg {
-  position: absolute;
-  width: 1000px;
-  top: 150px;
-  left: 0;
+  width: 500px;
+}
+
+.b-right {
+  margin-right: 30px;
 }
 
 .b-sectiontitle {
   font-size: 21px;
   font-weight: 700;
   color: #9f9f9f;
-}
-
-.b-text {
-  margin-left: 40vw;
-}
-
-.b-carousel {
-  margin-left: -6vw;
-  width: 45vw;
+  max-width: 30vw;
 }
 
 .b-sectionbody {
-  width: 35vw;
   font-size: 16px;
   font-weight: 500;
   color: #9f9f9f;
   line-height: 30px;
-  margin: 50px 100px 30px;
   text-align: justify;
+  margin-top: 50px;
 }
