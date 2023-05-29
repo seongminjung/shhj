@@ -1,6 +1,14 @@
 .a1-flex {
   display: flex;
   margin-top: 50px;
+  flex-direction: row;
+  gap: 50px;
+}
+
+@media (max-width: 1500px) {
+  .a1-flex {
+    flex-direction: column;
+  }
 }
 
 .a1-flex > div {
@@ -27,7 +35,7 @@
 
 .a1-right {
   margin-top: 100px;
-  margin-left: 200px;
+  /* margin-left: 200px; */
 }
 
 .a1-sectiontitle {
