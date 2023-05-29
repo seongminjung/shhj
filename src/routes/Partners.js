@@ -1,10 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import "css/partners.css";
 import background_gray from "img/picture/background_gray.png";
-import contactimg from "img/picture/contact.png";
 import LeftArrow from "components/LeftArrow";
 
-const partners = () => {
+const Partners = () => {
+  const [partners, setPartners] = useState(["sdsdf"]);
   return (
     <div className="container">
       <LeftArrow to="/contact" />
@@ -14,18 +14,13 @@ const partners = () => {
         className="backgroundimg_full"
       />
       <p className="title">Partners</p>
-      <div className="c-flex">
-        <div className="c-left">
-          <p>주소 | [04075] 서울특별시 마포구 와우산로 32, 5층(상수동)</p>
-          <p>전화 | 02 6204 6931</p>
-          <p>E-mail | taoxingzhi@naver.com</p>
-        </div>
-        <div className="c-right">
-          <img src={contactimg} alt="contact" />
-        </div>
+      <div>
+        {partners.map((partner) => (
+          <p>{partner}</p>
+        ))}
       </div>
     </div>
   );
 };
 
-export default partners;
+export default Partners;
