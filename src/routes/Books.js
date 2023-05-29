@@ -33,9 +33,9 @@ const Books = () => {
           </p>
           <div className="b-carousel">
             <p className="b-sectionbody">{curPage ? body1 : body2}</p>
-            <p className="b-pagebtn" onClick={togglePage}>
+            <button className="b-pagebtn" onClick={togglePage}>
               {curPage ? "Next" : "Prev"}
-            </p>
+            </button>
           </div>
         </div>
       </div>

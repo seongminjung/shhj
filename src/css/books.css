@@ -37,3 +37,7 @@
   text-align: justify;
   margin-top: 50px;
 }
+
+.b-pagebtn {
+  cursor: pointer;
+}
