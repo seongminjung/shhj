@@ -5,12 +5,6 @@
   gap: 50px;
 }
 
-@media (max-width: 1500px) {
-  .a1-flex {
-    flex-direction: column;
-  }
-}
-
 .a1-flex > div {
   flex: 1;
 }
@@ -35,7 +29,8 @@
 
 .a1-right {
   margin-top: 100px;
-  /* margin-left: 200px; */
+  margin-right: 40px;
+  text-align: justify;
 }
 
 .a1-sectiontitle {
@@ -64,4 +59,15 @@
 .a1-sectionfooter span {
   font-size: 21px;
   font-weight: 700;
+}
+
+@media (max-width: 1500px) {
+  .a1-flex {
+    flex-direction: column;
+  }
+  .a1-right {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 90px;
+  }
 }
