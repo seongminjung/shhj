@@ -47,10 +47,10 @@ const EditPartner = ({ userObj }) => {
   const onclearPhoto = () => setPartnerLogo(null);
   const onSubmit = async (event) => {
     event.preventDefault();
-    if (!userObj) {
-      alert("로그인 후 이용 가능합니다.");
-      return;
-    }
+    // if (!userObj) {
+    //   alert("로그인 후 이용 가능합니다.");
+    //   return;
+    // }
     let logoUrl = null;
     const createdAt = Date.now();
     if (partnerLogo) {
@@ -122,7 +122,7 @@ const EditPartner = ({ userObj }) => {
           onChange={onChange}
           placeholder="단체 설명"
           autoComplete="off"
-          requiredr
+          required
         />
         <br />
         <label htmlFor="url">웹사이트 주소</label>
@@ -168,6 +168,7 @@ const EditPartner = ({ userObj }) => {
             <div className="adm-partner-wrapper" key={partner.name}>
               <p className="adm-partner-info">{partner.name}</p>
               <p className="adm-partner-info">{partner.url}</p>
+              <p className="adm-partner-info">{partner.description}</p>
               <img
                 className="p5-cooperates__img"
                 src={partner.logoUrl ? partner.logoUrl : defaultCompany}
