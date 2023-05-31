@@ -26,7 +26,6 @@
   font-size: 21px;
   font-weight: 700;
   color: #9f9f9f;
-  max-width: 30vw;
 }
 
 .b-sectionbody {
@@ -38,6 +37,35 @@
   margin-top: 50px;
 }
 
-.b-pagebtn {
+.b-pagination {
+  margin: 30px auto;
+  padding: 0 0 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  font-family: NotoSansKR;
+  font-weight: 700;
+  font-size: 18px;
+  color: #646464;
+}
+
+.b-pagination button {
+  font-family: NotoSansKR;
+  font-weight: 700;
+  font-size: 18px;
   cursor: pointer;
+  background-color: transparent;
+  border: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  color: #323232;
+  background-color: #a1a1a1;
+}
+
+.b-pagination button:disabled {
+  color: #b2b2b2;
+  background-color: #e5e5e5;
+  cursor: default;
 }
