@@ -6,6 +6,7 @@ import defaultCompany from "img/picture/defaultCompany.jpg";
 const EditPartner = ({ userObj }) => {
   const [partners, setPartners] = useState([]);
   const [name, setName] = useState("");
+  const [description, setDescription] = useState("");
   const [url, setUrl] = useState("");
   const [partnerLogo, setPartnerLogo] = useState(null);
   useEffect(() => {
@@ -23,6 +24,8 @@ const EditPartner = ({ userObj }) => {
     } = event;
     if (name === "name") {
       setName(value);
+    } else if (name === "description") {
+      setDescription(value);
     } else if (name === "url") {
       setUrl(value);
     }
@@ -59,11 +62,13 @@ const EditPartner = ({ userObj }) => {
     }
     await dbService.collection("partners").doc(String(createdAt)).set({
       name,
+      description,
       url,
       logoUrl,
       createdAt,
     });
     setName("");
+    setDescription("");
     setUrl("");
     onclearPhoto();
     alert("추가되었습니다.");
@@ -79,7 +84,7 @@ const EditPartner = ({ userObj }) => {
   };
   return (
     <>
-      <p className="adm-sectiontitle">협력 기업</p>
+      <p className="adm-sectiontitle">협력 단체</p>
       <div className="adm-sectionbar">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -97,16 +102,27 @@ const EditPartner = ({ userObj }) => {
         </svg>
       </div>
       <form className="adm-textform" onSubmit={onSubmit}>
-        <p className="adm-editpartner-subtitle">협력 기업 추가</p>
-        <label htmlFor="name">기업명</label>
+        <p className="adm-editpartner-subtitle">협력 단체 추가</p>
+        <label htmlFor="name">단체명</label>
         <input
           type="text"
           name="name"
           value={name}
           onChange={onChange}
-          placeholder="기업명"
+          placeholder="단체명"
           autoComplete="off"
           required
+        />
+        <br />
+        <label htmlFor="description">단체 설명</label>
+        <input
+          type="text"
+          name="description"
+          value={description}
+          onChange={onChange}
+          placeholder="단체 설명"
+          autoComplete="off"
+          requiredr
         />
         <br />
         <label htmlFor="url">웹사이트 주소</label>
@@ -143,7 +159,7 @@ const EditPartner = ({ userObj }) => {
           추가
         </button>
       </form>
-      <p className="adm-editpartner-subtitle">현재 기업 목록</p>
+      <p className="adm-editpartner-subtitle">현재 단체 목록</p>
       <div className="adm-partners-grid">
         {partners
           .slice(0)
