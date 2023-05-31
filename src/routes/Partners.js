@@ -13,7 +13,6 @@ const Partners = () => {
         ...doc.data(),
       }));
       setPartners(partnersArray.slice(0).reverse());
-      console.log(partnersArray);
     });
   }, []);
   return (
