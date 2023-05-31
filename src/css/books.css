@@ -4,22 +4,17 @@
   margin-left: 50px;
 }
 
-@media (max-width: 1500px) {
-  .b-flex {
-    flex-direction: column;
-  }
-}
-
 .b-flex > div {
   flex: 1;
 }
 
 .b-bookimg {
-  width: 500px;
+  width: 450px;
 }
 
 .b-right {
-  margin-right: 30px;
+  margin-top: 30px;
+  margin-right: 90px;
 }
 
 .b-sectiontitle {
@@ -38,8 +33,7 @@
 }
 
 .b-pagination {
-  margin: 30px auto;
-  padding: 0 0 200px;
+  margin: 30px auto 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -68,4 +62,18 @@
   color: #b2b2b2;
   background-color: #e5e5e5;
   cursor: default;
+}
+
+@media (max-width: 1500px) {
+  .b-left {
+    text-align: center;
+    margin-right: 50px;
+  }
+  .b-flex {
+    flex-direction: column;
+  }
+  .b-right {
+    margin-top: 50px;
+    margin-left: 40px;
+  }
 }
