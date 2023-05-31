@@ -9,8 +9,11 @@
 }
 
 .n-logo {
+  position: fixed;
   width: 75px;
-  margin-top: 45px;
+  top: 45px;
+  left: 3.8vw;
+  transform: translateX(-50%);
 }
 
 .n-language {
@@ -21,7 +24,7 @@
 }
 
 .n-bookmark {
-  position: absolute;
+  position: fixed;
   width: 128px;
   bottom: 15vh;
   left: 6.5vw;
