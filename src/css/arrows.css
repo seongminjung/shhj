@@ -1,9 +1,9 @@
 .la-wrapper {
   position: fixed;
-  margin-top: -120px;
-  margin-left: -110px;
+  top: 0;
+  left: calc(7.6vw + 1px);
   width: 5vw;
-  min-width: 50px;
+  min-width: 75px;
   height: 100vh;
   text-align: center;
   flex-shrink: 0;
@@ -12,12 +12,18 @@
   z-index: 1;
 }
 
+@media (max-width: 1316px) {
+  .la-wrapper {
+    left: calc(100px + 1px);
+  }
+}
+
 .ra-wrapper {
   position: fixed;
-  margin-top: -120px;
-  margin-left: calc(100% - 18.5vw);
+  top: 0;
+  right: 0;
   width: 5vw;
-  min-width: 50px;
+  min-width: 75px;
   height: 100vh;
   text-align: center;
   flex-shrink: 0;

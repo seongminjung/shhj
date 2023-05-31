@@ -26,7 +26,16 @@
 .n-bookmark {
   position: fixed;
   width: 128px;
-  bottom: 15vh;
-  left: 6.5vw;
+  top: 80vh;
+  left: calc(7.6vw - 21px);
   z-index: 2;
+}
+
+@media (max-width: 1316px) {
+  .n-logo {
+    left: 50px;
+  }
+  .n-bookmark {
+    left: calc(100px - 21px);
+  }
 }
